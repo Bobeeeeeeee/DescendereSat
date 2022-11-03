@@ -10,7 +10,7 @@ DescendereSat is created to simulate the tether satellite, consists of a contain
 * [Electronics Design](#electronics-design)
 * [Communcation and Data Handling](#communication-and-data-handling)
 * [Flight Software](#flight-software)
-* [Post Flight Analysis]((#post-flight-analysis)
+* [Post Flight Analysis](#post-flight-analysis)
 ## Casing Design
 All mechanics and casing were designed in Fusion 360. The 3D model of the DescendereSat is shown in this link: 
 
