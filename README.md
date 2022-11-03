@@ -9,8 +9,8 @@ DescendereSat is created to simulate the tether satellite, consists of a contain
 * [Mechanism Design](#mechanism-design)
 * [Electronics Design](#electronics-design)
 * [Communcation and Data Handling](#communication-and-data-handling)
-* [Flight Software](#Flight-Software)
-
+* [Flight Software](#flight-software)
+* [Post Flight Analysis]((#post-flight-analysis)
 ## Casing Design
 All mechanics and casing were designed in Fusion 360. The 3D model of the DescendereSat is shown in this link: 
 
@@ -18,7 +18,7 @@ All mechanics and casing were designed in Fusion 360. The 3D model of the Descen
 The container is separated of three circular ribs due to the mass condition. They are connected to one another with carbon fiber rods forming a long cylinder. Each ribs stores different components; the upper part is the area for parachute storage, the middle located the circuits and the payload deployment mechanism, and the tethered payload is stored in the lower part. The gaps between the ribs are enclosed by plastic sheet to prevent small particles from entering the electronics.
 
 ### Payload
-For the tethered payload, it is designed to be a slightly smaller cylinder than the container and its surface is designed to have hexagonal close packed pattern on it. With those tiny holes, the payload can reduce a considerable amount of weight (about 50% of the cylinder with same size) and also dissipating heat which generated from the electronics. The cameral gimbal is located at the lowest part of the tethered payload protruding from the bottom.
+For the tethered payload, it is designed to be a slightly smaller cylinder than the container and its surface is designed to have hexagonal close packed pattern on it. With those tiny holes, the payload can reduce a considerable amount of weight (about 50% of the cylinder with same size) and also dissipating heat which generated from the electronics. The cameral gimbal is located at the lowest part of the tethered payload protruding from the bottom
 
 ## Mechanism Design
 
@@ -33,6 +33,19 @@ This mechanism can control the spooling of the tether by creating the friction b
 To stow the payload, the servo will rotate the cylinders and fold the tether. When the CanSat reaches 300 meters, the servo will be triggered, rotate the cylinders to unfold the tether, and deploy the payload.
 
 ![image](https://user-images.githubusercontent.com/117327184/199678757-d9de0f6c-d7aa-4a04-bcf5-9a1a24006fdc.png)
+
+
+
+
+
+The videos below are the testing of the brake system
+
+
+https://user-images.githubusercontent.com/117327184/199721815-442f8235-5298-4e6a-8ff4-740be9966ab5.mp4
+
+https://user-images.githubusercontent.com/117327184/199721893-004fccd4-d25b-4e10-a86a-2ae3d51828ed.mp4
+
+
 
 ### Camera Gimbal
 The camera gimbal uses 2 axes for better video quality. It has two servos and a rotation sensor mounted on it. The components is controlled by the payload's Teensy.
@@ -97,4 +110,23 @@ C and C++ is the progamming lauguage used for both the container and payload.
 
 ### Ground Station setup
 
+## Post Flight Analysis
+DescendereSat was lauched in Blacksburg Virginia on 11th June 2022 with the rocket provided by the competition. 
 
+![rocket](https://user-images.githubusercontent.com/117327184/199715500-9df989a2-b200-451f-8b37-ee1e01780cdd.png)
+
+The data are shown in the following graph.
+
+![timealt](https://user-images.githubusercontent.com/117327184/199715614-ab3195b3-8aeb-44f4-a0b8-8ef356837814.png)
+
+![fittedline](https://user-images.githubusercontent.com/117327184/199715632-58fe51b4-35a8-466e-8700-afd19a8153e2.png)
+
+![altlonglatitude](https://user-images.githubusercontent.com/117327184/199715651-dd63860b-89f0-4a3a-a284-7ae9485186cd.png)
+
+![Xacc](https://user-images.githubusercontent.com/117327184/199715750-397e7224-5450-4ec5-bfab-4e5e92726547.png)
+
+![Yacc](https://user-images.githubusercontent.com/117327184/199715764-bc95a0e6-2827-4e01-a057-08b3ca394bf8.png)
+
+![Zacc](https://user-images.githubusercontent.com/117327184/199715784-b46aebd7-7d95-4afd-b29b-ddefc2042be1.png)
+
+Overall, 
