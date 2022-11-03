@@ -1,1 +1,1 @@
-# Descendere
+# DescendereSat is the tethered CanSat (can-sized satellite model)  created for participation in the 2022 Annual CanSat Competition organized by American Astronautical Society (AAS) in United States of America. Developed by high school students, the design won the first place out of forty university teams from various countries.
