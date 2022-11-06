@@ -12,7 +12,7 @@ DescendereSat is created to simulate the tether satellite, consists of a contain
 * [Flight Software](#flight-software)
 * [Post Flight Analysis](#post-flight-analysis)
 ## Casing Design
-All mechanics and casing were designed in Fusion 360. The 3D model of the DescendereSat is shown in this link: 
+All mechanics and casing were designed in Fusion 360. The 3D model of the DescendereSat is shown in this link: https://a360.co/3UgCUFu
 
 ### Container
 The container is separated of three circular ribs due to the mass condition. They are connected to one another with carbon fiber rods forming a long cylinder. Each ribs stores different components; the upper part is the area for parachute storage, the middle located the circuits and the payload deployment mechanism, and the tethered payload is stored in the lower part. The gaps between the ribs are enclosed by plastic sheet to prevent small particles from entering the electronics.
@@ -65,7 +65,9 @@ DescendereSats collects 5 types of data, including altitude, air temperature, ro
 ### Payload PCB
 ![image](https://user-images.githubusercontent.com/117327184/199684308-458ba3e5-bac7-4a5e-ba4f-12d1c68c08f2.png)
 
-***The container and payload PCB can be viewed in 3D through this link:*** 
+***The container and payload PCB can be viewed in 3D through these links:*** 
+Container PCB: https://a360.co/3NFhOxV
+Payload PCB: https://a360.co/3E5NDNl
 
 ### Power
 For the container, 16650 2000 maH Li-ion is used. Here is the container electrical block diagram.
