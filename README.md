@@ -34,7 +34,9 @@ To stow the payload, the servo will rotate the cylinders and fold the tether. W
 
 ![image](https://user-images.githubusercontent.com/117327184/199678757-d9de0f6c-d7aa-4a04-bcf5-9a1a24006fdc.png)
 
+![image](https://user-images.githubusercontent.com/117327184/200590020-2c213dbb-fed9-4d52-a724-229ddfca44e0.png)
 
+Formula used to find the exact angle of the brake
 
 
 
