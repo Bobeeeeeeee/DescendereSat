@@ -62,8 +62,15 @@ DescendereSats collects 5 types of data, including altitude, air temperature, ro
 
 ![image](https://user-images.githubusercontent.com/117327184/199683858-576ba486-14d9-4530-806b-2ea8415a3a2b.png)
 
+### Schematic 
+
+![image](https://user-images.githubusercontent.com/117327184/200562456-05a575d9-5285-4f66-9038-d4396c77bee6.png)
+
 ### Payload PCB
 ![image](https://user-images.githubusercontent.com/117327184/199684308-458ba3e5-bac7-4a5e-ba4f-12d1c68c08f2.png)
+
+### Schematic
+![image](https://user-images.githubusercontent.com/117327184/200562568-95a52b3c-00da-4100-96e6-57331cfdab93.png)
 
 ***The container and payload PCB can be viewed in 3D through these links:*** 
 Container PCB: https://a360.co/3NFhOxV
