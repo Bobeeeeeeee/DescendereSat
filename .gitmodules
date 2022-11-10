@@ -1,5 +1,5 @@
 [submodule "DESCENDERE-GCS"]
-	path = DESCENDERE-GCS
+	path = Ground Station Software
 	url = git@github.com:OmsinKrissada/DESCENDERE-GCS.git
 [submodule "Container Software"]
 	path = Container Software
