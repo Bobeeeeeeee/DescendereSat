@@ -140,4 +140,5 @@ The data are shown in the following graph.
 
 ![Zacc](https://user-images.githubusercontent.com/117327184/199715784-b46aebd7-7d95-4afd-b29b-ddefc2042be1.png)
 
-Overall, 
+Overall, Data analysis has indicated that the subsystems are able to perform the tethered operation, but in the real launch, the altitude error detection has occured.
+This error could be prevented by a removal of the expected altitude reach error prevention system. DescendereSat can be used for future development of a real tethered satellite. The ground knowledge gathered from the DescendereSat can be applied to wide variety of tethered missions with a specific application toward developing a CubeSat for the removal of the Earth’s space debris.
