@@ -1,3 +1,6 @@
 [submodule "DESCENDERE-GCS"]
 	path = DESCENDERE-GCS
 	url = git@github.com:OmsinKrissada/DESCENDERE-GCS.git
+[submodule "Container Software"]
+	path = Container Software
+	url = git@github.com:SPACE-AC/DESCENDERE-Container2.git
