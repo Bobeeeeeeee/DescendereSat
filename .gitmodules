@@ -1,0 +1,3 @@
+[submodule "DESCENDERE-GCS"]
+	path = DESCENDERE-GCS
+	url = git@github.com:OmsinKrissada/DESCENDERE-GCS.git
