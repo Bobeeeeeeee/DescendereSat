@@ -7,3 +7,6 @@
 [submodule "Payload Software"]
 	path = Payload Software
 	url = git@github.com:SPACE-AC/DESCENDERE-Payload.git
+[submodule "Ground Station Extension Board Software"]
+	path = Ground Station Extension Board Software
+	url = git@github.com:SPACE-AC/AC137-Ground-Station-Board.git
